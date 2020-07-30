@@ -6,6 +6,9 @@ const Navigation = () =>{
     return(
         <div>
             <div className="ui secondary  menu">
+            <Link className="item" to={ROUTES.SIGN_UP} >
+    Sign Up
+  </Link>
   <Link className="item" to={ROUTES.SIGN_IN} >
     Sign In
   </Link>
